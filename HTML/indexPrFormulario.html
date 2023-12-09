@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de adopción</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+        
+    <header> 
+        <h1>Formulario de adopción</h1>
+        <label for="fecha"> Fecha</label>
+        <input type="date" id="fecha" name="fecha">
+    </header>
+    <div>
+        <fieldset>
+        <legend>1.Datos personales</legend>
+        <br>
+        <label for="usuario">Nombre completo</label>
+        <input  type="text" id="usuario" name="nombre" >
+        <label for="edad" type="number">Edad</label>
+        <input type="number" id="edad" name="edad">
+        <br>
+        <label for="direccion">Dirección</label>
+            <input type="text" id="direccion" name="direccion" placeholder=" ¿Dónde vivirá el peludito?"> <br>
+            <label for="ocupacion">Ocupacion</label>
+            <input type="text" name="ocupacion">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email"><br>
+            <label for="telcel">Celular</label>
+            <input name="telcel" id="telcel" type="tel">
+            <label for="telcasa" id="telcasa" type="tel">Casa</label>
+            <input type="tel" id="telcasa" name="telcasa">
+            <label for="teltrabajo" id="teltrabajo" type="tel">Trabajo</label>
+            <input type="tel" id="teltrabajo" name="teltrabajo"> <br>
+            <label for="estudios" id="estudios" name="estudios" name="ocupacion">Nivel de estudios</label> 
+            <input type="radio" value="primaria"> Primaria
+            <input type="radio" value="secundaria"> Secundaria
+            <input type="radio" value="preparatoria"> Preparatoria
+            <input type="radio" value="universidad">Universidad
+            <input type="radio" value="posgrado"> Posgrado
+        </fieldset>
+    </div> 
+        <br>
+    <div>
+        <fieldset>
+            <legend>2.Referencias</legend>
+            <label for="refpersonal" id="refpersonal" name="refpersonal">Referencia personal</label>
+            <input type="text"  name="refpersonal"> 
+            <label for="refpertel" id="refpertel" name="referpertel">Teléfono</label>
+            <input type="tel" name="referfamtel">
+            <label for="refrelacion">Relación</label> 
+            <input type="text" name="refrel"><br>
+            <label for="referfam" id="referfam" 
+            name="referenciafam">Referencia familiar</label>
+            <input type="text"  name="referefam"> 
+            <label for="referfamtel" id="reffamtel" name="referfamtel">Teléfono</label>
+            <input type="tel" name="referfamtel">
+            <label for="referrelacion">Parentesco</label>
+            <input type="text" name="refparentesco">
+        </fieldset>
+        <fieldset>
+            <legend>3.Situación personal</legend>
+        <div class="personas_vive">
+            <label>Mencione las personas con las que vive:</label><br>
+            <input type="text" name="nombreF1" placeholder="Nombre">
+            <input type="number" name="edadF1" placeholder="Edad"> 
+            <input type="text" name="parentescoF1" placeholder="Parentesco">
+<br>
+            <input type="text" name="nombreF2" placeholder="Nombre">
+            <input type="number" name="edadF2" placeholder="Edad"> 
+            <input type="text" name="parentescoF2" placeholder="Parentesco">
+            <br>
+            <input type="text" name="nombreF3" placeholder="Nombre">
+            <input type="number" name="edadF3" placeholder="Edad"> 
+            <input type="text" name="parentescoF3" placeholder="Parentesco">
+            <br>
+            <input type="text" name="nombreF4" placeholder="Nombre">
+            <input type="number" name="edadF4" placeholder="Edad"> 
+            <input type="text" name="parentescoF4" placeholder="Parentesco">
+        </div>
+        <div class="alergias">
+            <label for="bebe">¿Algún familiar espera un bebé?</label>
+            <input type ="checkbox" id="cbox10"> Sí
+            <input type ="checkbox" id="cbox11"> No
+        </div>
+        <div class="asma">
+            <label for="asma">¿En su hogar alguien es alérgico a los animales osufre de asma?</label>
+            <input type ="checkbox" id="cbox12"> Sí
+            <input type ="checkbox" id="cbox13"> No
+        </div>
+        </fieldset>
+     <div class="tipo">
+        <fieldset>
+        <legend>4.Domicilio</legend>
+        <div>
+            <label>¿Qué tipo de inmueble posee? (Especifique en metro cuadrados</label><br>
+            
+                   <input type="radio" name="inmueble" value="casa"> Casa</tr>
+                   <input type="number" value=""> 
+                    <label>m2</label><br>
+                    <input type="radio" name="inmueble" value="apartamento"> Apartamento
+                    <input type="number" value=""> 
+                    <label>m2</label><br>
+                    <input type="radio" name="inmueble" value="finca"> Finca</td>
+                    <input type="number" value=""> 
+                    <label>m2</label><br>
+                    
+     </div>
+        <div class="estatus">
+            <input type="radio" name="propio"> Propio
+            <input type="radio" name="Arrendado"> Arrendado
+        </div>
+        <div class="mudar">
+            <label for="plan_mudar">¿Planea mudarse próximamente?</label>
+            <input type="checkbox" id="cbox1"> Sí
+            <input type ="checkbox" id="cbox2"> No
+        </div>
+        <div class="finca">
+            <label>Si el lugar donde estará el peludito es finca, ¿tiene cerradero?</label> <br> 
+            <input type="checkbox" id="cbox3"> Sí
+            <input type ="checkbox" id="cbox4"> No
+        </div>
+        <div class="renta">
+                <label>Si es arrendatario coloque nombre y teléfono del dueño de la casa</label> <br> 
+                <label for="dueño">Nombre del dueño de la casa</label> 
+                <input type="text" name="nombre_dueno">
+                <label for="tel_dueno">Teléfono</label>
+                <input type="tel" name="tel_dueño" id="dueño">
+                <label for="lugar">El lugar donde vivirá el peludito posee:</label>
+                <input type ="checkbox" id="cbox5"> PATIO
+                <input type ="checkbox" id="cbox6"> TERRAZA
+                <input type ="checkbox" id="cbox7"> JARDÍN
+        </div>
+        <div class="cubierto">¿Es cubierto?
+        <input type ="checkbox" id="cbox8"> Sí
+        <input type ="checkbox" id="cbox9"> No
+        </div>
+    </fieldset>
+</body>
+</html>

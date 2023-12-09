@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>HTML Avanzado</title>
+</head>
+<body>
+   	 <h1> Ejemplo de tabla</h1>
+	<!--Las tablas son un conjunto destructurado de datos compuesto por filas 	(row) y columnas (columns)-->
+	<caption>Tabla de nombres</caption> <!--representa un título descriptivo de 	la tabla-->
+	<table border=1><!--Crea Tabla, con border le añadimos bordes-->
+	   <tr><!--Fila-->
+		<th>Encabezado de la tabla 1 Nombre</th> <!--Celda de encabezado-->
+		<th>Encabezado 2 Apellido</th>
+	   </tr>
+	   <tr>
+		<td> Nombre 1 </td> <!--Primera celda de la primera fila-->
+		<td>Apellido 1</td> <!--Segunda celda de la primera fila-->
+       <tr>
+
+        <td align="center">Abigail</td>
+        <td align="center">Martinez</td>
+      <tr></tr>
+        
+       </tr>
+		
+	</table>
+<hr>
+<br>
+  <div class="especial">
+        <h2>Nombres del equipo 3</h2>
+        <caption>DeVortex</caption>
+    <table border="5">
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido Paterno</th>
+            <th>Apellido Materno</th>
+            <th>Error en el nombre</th>
+        </tr>
+        <tr>
+            <td>Nadia Abigail</td>
+            <td>Martínez</td>
+            <td>León</td>
+            <td>Nada o Nadie</td>
+        </tr>
+        <tr>
+            <td>Rene</td>
+            <td>Fómez</td>
+            <td>Orozco</td>
+            <td>Escriben Gomes</td>
+        </tr>
+        <tr>
+            <td>Eunice</td>
+            <td>Ceja</td>
+            <td>Santos</td>
+            <td>Juntan los apellidos y queda Cejas Antos</td>
+        </tr>
+        <tr>
+            <td>Baruch</td>
+            <td>Moreno</td>
+            <td>Romero</td>
+            <td>NBaruk o juntan una palabra con la terminación "uch"</td>
+        </tr>
+        <tr>
+            <td>David Alberto</td>
+            <td>Romero</td>
+            <td>Licea</td>
+            <td>En el médico le llaman Eliceo</td>
+        </tr>
+        <tr>
+            <td>Ana Karen</td>
+            <td>Morales</td>
+            <td>Ramos</td>
+            <td>Karina</td>
+        </tr>
+        <tr>
+            <td>Montserrat</td>
+            <td>Martínez</td>
+            <td>Galván</td>
+            <td>Escriben sin la t o sin una R</td>
+        </tr>
+        <tr>
+            <td>Jesus Emiliano</td>
+            <td>Madrigal</td>
+            <td>Gonzales</td>
+            <td>Emilio o Gonzalez con S</td>
+        </tr>
+        <tr>
+            <td>Oswaldo Ivan</td>
+            <td>Zarza</td>
+            <td>Morales</td>
+            <td>Juntan los apellidos y queda Zarzamora</td>
+        </tr>
+    </table>
+</div>
+
+<table border="1">
+    <thead>
+        <!--Aqgrupa los elementos de la cabezera-->
+        <tr>
+            <th colspan="3">Encabezado de tabla</th> <!--permite expandir las celdas de datos o encabezados al numero de columnas que deseamos que ocupe-->
+        </tr>
+    </thead>
+    <tbody> <!--esta etiquera agrupa los elementos contenidos en la tabla-->
+        <tr>
+            <td>Cuerpo de la tabla</td>
+            <td>con 2 columnas</td>
+            <td>columna</td>
+         </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <th colspan="3">pie</th>
+        </tr>
+    </tfoot>
+</table>
+<br>
+    <hr>
+    <h1 id="anclajes"> Anclajes: Interno y externo</h1>
+    <a href="#seccion1">¿Adoptar una mascota?</a>
+    <a href="#seccion2">Antes de llevar a un peludito a casa</a>
+    <a href="seccion3">¿Cuánto cuesta mantener una mascota?</a>
+    <a href="#seccion4">Dueño responsable</a>
+    <!--Cuando hay mucho texto pero queremos ir a una parte en específico.
+    El interno nos ayuda a desplazarnos dentro de la página, el externo nos lleva a otra página-->
+        <h2 id="seccion1">¿Adoptar una mascota? Tome en cuenta sus gastos</h2>
+        <br>
+        <img src="https://www.eleconomista.com.mx/__export/1650592718322/sites/eleconomista/img/2022/04/21/grafico_eleconomista_mexico_finanzas_personales_adopcion_de_mascotas_consejos.png_1947833983.png" alt="infogragfía" width="400px">
+        <h4 id="seccion2">Antes de llevar a un peludito a casa, debe tener en mente que es una responsabilidad monetaria a largo plazo y que ellos se merecen que les demos una vida digna.</h4>
+        <p>Las organizaciones protectoras de animales siempre recomiendan tomar en cuenta que el adoptar una mascota representa una responsabilidad por muchos años, pero lo que también debemos tomar en cuenta antes de adoptar es el hecho de que esta responsabilidad también representa un gasto.</p>
+        <a href ="#anclajes">Menú</a>
+        <br>
+        <h3 id="seccion3">¿Cuánto cuesta mantener una mascota?</h3>
+        <p>El gasto de una mascota dependerá de muchos factores, principalmente la talla del animalito, ya que un perro de talla pequeña no come ni tiene las mismas necesidades que uno de talla grande, por ello antes de adoptar debemos determinar a qué tipo de mascota podemos darle una vida digna.</p>
+        <a href ="#anclajes">Menú</a>
+        <br>
+        <h3 id="seccion4">Dueño responsable</h3>
+        <p>El gobierno realiza campañas de vacunación y esterilización gratuitas, incluso la Facultad de Medicina Veterinaria y Zootecnia de la UNAM puso a disposición servicios de esterilización con costos de recuperación desde 650 a 1,200 pesos.</p>
+        <a href ="#anclajes">Menú</a>
+        <a href ="index.html">Inicio</a> <!--este anclaje te lleva al inicio de la página-->
+        <br>
+        <br>
+        <h2>Anclaje externo</h2>
+        <p>¿Dónde puedes adopatr una mascota? </p>
+        <a href="https://mexicorutamagica.mx/2021/08/17/centros-adopcion-de-perros-cdmx-puebla-2021-cholula/" target="_blank">Refugios</a> <!--Este anclaje te lleva a una página diferente. El valor del atributo href es la URL completa del sitio festino y elidentificador de la sección-->
+        <h5>Anclar numero de telefono</h5>
+        <a href="tel:+525560"> Llamar a Alguien</a>
+        <h5> Anclaje a Whatsapp</h5>
+        <a href="thhps://wa.me/1234"
+        target="_blank">Envíanos un mensaje</a> <!--target blank indica que la pagina se va a abrir en una ventana nueva-->
+        <h5>Anclaje de mapa</h5>
+        <a href="https://maps.app.goo.gl/jUFMqzujBikXid517" target="_blank"> Ver ubicacion</a>
+
+<h2>prueba target _blank</h2>
+<a href="https://mexicorutamagica.mx/2021/08/17/centros-adopcion-de-perros-cdmx-puebla-2021-cholula/" target="_blank"
+<h2>prueba target _parent</h2>
+<a href="https://mexicorutamagica.mx/2021/08/17/centros-adopcion-de-perros-cdmx-puebla-2021-cholula/" target="_parent"
+
+<br>
+<h3>Anclaje de redes sociales</h3>
+<a href="https://www.facebook.com/VegattosMx/?locale=es_LA"
+
+
+</body>
+</html>

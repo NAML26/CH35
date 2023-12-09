@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1> Formularios y tipos de entrada</h1>
+    <form action="procesar_formulario" method="post"></form>
+    <!--El elemento form permite crear formularios para ingresar información que se almacene un un servidor- Existe el elemento input de distintos elementos.
+    actions: especifica el URL al que se enviarán los datos ingresados
+method: definde el metodo http que se utilizará para enviar los datos, puede ser get o post-->
+<br>
+<h3>Etiqueta input</h3> <!--Etiqueta input: Se utiliza para crear campos de entrada en un formulario-->
+<input type="text" name="usuario" placeholder="Nombre de usuario">
+
+<!-- type: Define el tipo de entrada (texto, contraseña, correo electrónico, etc.).
+name: Es el nombre del campo, utilizado para identificar el dato cuando se envía el formulario.
+placeholder: Proporciona un texto de ejemplo dentro del campo de entrada. -->
+
+<input type="password" name="contraseña" placeholder="Contraseña">
+<h3>Etiqueta label</h3>
+<!--La etiqueta label se utiliza para etiquetar un elemento de entrada en un formulario, lo que mejora la accesibilidad y la experiencia del usuario
+for: es un atributo que se asocia con el ID de un elemento de entrada para indicar a qué campo se refiere-->
+<label for="usuario">Nombre:
+<input type="text" id="usuario" name="usuario">
+</label>
+<br>
+<h3>Etiqueta button</h3>
+<!--Etiqueta para crear botones en un formulario para enviar la información solicitada-->
+<button type="submit">Mándemelo!</button>
+<button type="reset">Resetear</button> <!--Aquí type define el tipo de botón-->
+<br>
+<h3>Área de texto</h3>
+<textarea name="comentarios" id="comentarios" cols="50" rows="25" placeholder="Escribe un breve comentario"></textarea>
+<!--https://developer.mozilla.org/es/docs/Web/HTML/Element/textarea-->
+<br>
+<h3>Número ("number")</h3>
+<!--Este tipo de entrada crea un campo de entrada para números-->
+<input type="number" name="number" placeholder="Elige tu edad">
+<h3>Correo electronico ("email")</h3>
+<input type="email" name="correo" placeholder="Ingresa tu correo">
+<br>
+<h3>Numero telefonico ("tel")</h3>
+<input type="tel" name="telefono" placeholder="Ingresa tu número telefónico">
+<h3>Fecha ("date")</h3>
+<input type="date" name="Fecha">
+<br>
+<h3>Hora ("time")</h3>
+<input type="time" name="hora">
+<br>
+<h3>Archivo("File")</h3>
+<input type="file" name="Archivo">
+
+
+</body>
+</html>
+
