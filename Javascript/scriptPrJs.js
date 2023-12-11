@@ -8,7 +8,8 @@ y cierra con asterisco diagona*/
 
 //la palabra prompt es para dar mensajes 
 var nombre = prompt ("Ingresa tu nombre");
-alert("Hola, " + nombre + ", qué bueno que estás aquí");
+alert(`Hola ${nombre}, qué bueno que estás aquí`)
+
 //El nombre de variables debe seguir la convención camelCase, no pueden haber espacios entre las palabras y no pueden iniciar con número o caracteres especiales
 /*var numero1 = parseInt (prompt ("Ingresa el primer número"));
 var numero2 = parseInt (prompt ("Ingresa el segundo numero"));
@@ -41,9 +42,9 @@ Booleano: True/False
 Null: Nulo
 Undefinied: No está asignado o definido*/
 
-let nombre = "Daniel";
+/*let nombre = "Daniel";
 let invitadosExtras = 2;
 let esMayorEdad = true;
 let edad = 25;
 let invitadoEspecial = null;
-let horaDeSalida = undefined;
+let horaDeSalida = undefined;*/

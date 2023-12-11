@@ -1,0 +1,45 @@
+
+body,html{
+    height: 100%
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.centrar{
+    display: flex;
+    align-items: center;
+}
+.container{
+    height: 60%;
+    width: 80%;
+    display: flex;
+}
+.seccion1{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cuadro{
+    width: 55%;
+    height: 70%;
+    background-color: white;
+    padding: 30px 15px;
+
+}
+
+.seccion2{
+    height: 100%;
+    width: 50%;
+    background: linear-gradient(90deg, rgba(180, 146, 253, 0.3) 0%, rgba(173, 78, 245, 0.9543) 100%);
+    display: flex;
+    align-items: flex-end;
+  
+}
+
+

@@ -17,13 +17,7 @@ h1, h2 {
         padding-bottom: 25px;
         }
 #ClassContainer, #ClassRow, #ClassCol {
-    color: lightcyan;
-    background-color:dimgrey;
-    border: 1px solid rgba(227, 227, 227, 0.53);
-    border-radius: 10px;
-    margin-bottom: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+   Color: Lightcyan; Background-color:dimgrey; Border: 1px Solid Rgba(227, 227, 227, 0.53); Border-radius: 10px; Margin-bottom: 15px; Padding-top: 5px; Padding-bottom: 5px;
 }
     /*Agregamos estílos a la barra de navegación y a los elementos dentro de la misma.*/
 #NavPrincipal {
