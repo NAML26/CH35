@@ -51,6 +51,8 @@ margin-top: 100px;
     color: gray;
     Padding-top: 5px;
     padding-bottom: 5px;
+    Font-family: Var(--font-primary);
+    
 
 }
 
@@ -65,10 +67,11 @@ margin-top: 100px;
     color: gray;
     padding-top: 5px;
     padding-bottom: 5px;
+    Font-family: Var(--font-primary);
 
 }
 .inputName {
-    font-family: Montserrat Alternates; 
+    Font-family: Var(--font-primary);
     font-size:medium;
     font-weight:bold;
     color: black;
@@ -76,7 +79,7 @@ margin-top: 100px;
     Margin: 5px 30px;
 }
 .inputLastName{
-    font-family: Montserrat Alternates; 
+    Font-family: Var(--font-primary);
     font-size:medium;
     font-weight:bold;
     color: black;
@@ -84,7 +87,7 @@ margin-top: 100px;
     margin: 5px 30px;
 }
 .inputEmail {
-    font-family: Montserrat Alternates; 
+    Font-family: Var(--font-primary);
     font-size:medium;
     font-weight:bold;
     color: black;
@@ -92,7 +95,7 @@ margin-top: 100px;
     margin: 5px 30px;
 }
 .inputContra {
-    font-family: Montserrat Alternates; 
+    Font-family: Var(--font-primary);
     font-size:medium;
     font-weight:bold;
     color: black;
@@ -100,7 +103,7 @@ margin-top: 100px;
     margin: 5px 30px;
 }
 .ya-cuenta {
-    font-family: Montserrat Alternates; 
+    Font-family: Var(--font-primary);
     font-size:medium;
     font-weight:bold;
     color: black;
