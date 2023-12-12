@@ -5,43 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina de registro</title>
     <link rel="stylesheet" href="../Styles/stylePagReg.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="Container">
+    <div class="container">
         <div class="seccion1">
             <div class="cuadro">
-                <div class="cuenta"
-                <h2>Crea una cuenta</h2>
-                <br>
+                <div class="cuenta">
+                    Crea una cuenta
+                </div> 
+            
+                <div class="btn-google">
+                        <img class="logo-google" src="../Assets/google-logo.png">Continúa con google 
                 </div>
-                <button type="">
-                    <picture>
-                        <img src="../Assets/google-logo.png">Continúa con google 
-                    </picture>
-                </button>
-                <button type=""
-                    <picture> <img src="../Assets/apple-logo.png">Continúa con Apple
-                    </picture>
-                </button>
-                <hr>..o..<hr>
-                <div class="inputData">
-                    <form action="" method="">
+                <div class="btn-apple">
+                    <img class="logo-apple" src="../Assets/apple-logo.png">Continúa con Apple
+                </div>
+                <hr>
+                <div class="inputName">
                     <label for="name">Nombre</label>
                     <input type="text" id="name" name="name">
+                </div>
+                <div class="inputLastName">
                     <label for="lastName">Apellido</label>
                     <input type="text" id="lastName" name="lastName">
-                    <br>
+                </div>
+                <div class="inputEmail">
                     <label for="email">Correo electrónico</label>
                         <input type="email" id="email" name="email" placeholder="Escribe tu correo electrónico">
+                </div>
+                <div class="inputContra"
                     <label for="contraseña" >Contraseña</label>
                         <input type="text" placeholder="Mínimo 8 dígitos">
-                        <br>
-                    </form>
+                </div>
+                <div class="ya-cuenta">
                     <label>¿Ya tienes una cuenta? <a href="./iniciaSesion.html" target="_blank">Inicia Sesión</a></label>
+                </div>
+                <div class="login">
+                    <button>Registrar</button>
+                </div>
             </div>
         </div>
         <div class="seccion2">
-            <img src="../Assets/dev-img.png">
+            <div>
+                <img src="../Assets/dev-img.png">
+            </div>
         </div>
     </div>
 </body>

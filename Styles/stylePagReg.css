@@ -1,20 +1,15 @@
+:root {
+    --font-primary: 'Montserrat Alternates', sans-serif;
+    --font-secondary:'Roboto', sans-serif;
+    --color-text:gray;
+     
+}
 
-body,html{
-    height: 100%
-}
-body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.centrar{
-    display: flex;
-    align-items: center;
-}
 .container{
-    height: 60%;
-    width: 80%;
+    width: 100%;
+    height: 50%;
     display: flex;
+      
 }
 .seccion1{
     height: 100%;
@@ -24,22 +19,110 @@ body{
     align-items: center;
     justify-content: center;
 }
+.cuadroContenido {
+    width: 50%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(7,1fr);
+    
+}
 
-.cuadro{
-    width: 55%;
-    height: 70%;
-    background-color: white;
-    padding: 30px 15px;
+.cuenta{
+
+Font-family: Montserrat Alternates;
+font-size: 36px;
+font-weight: 600;
+text-align: center;
+margin: 5px 30px;
+grid-column: span 2;
+margin-top: 100px;
+}
+
+.btn-google {
+
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    border-radius: 20px;
+    height: 50px;
+    grid-column: span 1;
+    border: gray 1px solid;
+    color: gray;
+    Padding-top: 5px;
+    padding-bottom: 5px;
 
 }
 
+.btn-apple {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    border-radius: 20px;
+    height: 50px;
+    grid-column: span 1;
+    border: gray 1px solid;
+    color: gray;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+.inputName {
+    font-family: Montserrat Alternates; 
+    font-size:medium;
+    font-weight:bold;
+    color: black;
+    grid-column: span 2;
+    Margin: 5px 30px;
+}
+.inputLastName{
+    font-family: Montserrat Alternates; 
+    font-size:medium;
+    font-weight:bold;
+    color: black;
+    grid-column: span 2;
+    margin: 5px 30px;
+}
+.inputEmail {
+    font-family: Montserrat Alternates; 
+    font-size:medium;
+    font-weight:bold;
+    color: black;
+    grid-column: span 2;
+    margin: 5px 30px;
+}
+.inputContra {
+    font-family: Montserrat Alternates; 
+    font-size:medium;
+    font-weight:bold;
+    color: black;
+    grid-column: span 2;
+    margin: 5px 30px;
+}
+.ya-cuenta {
+    font-family: Montserrat Alternates; 
+    font-size:medium;
+    font-weight:bold;
+    color: black;
+    grid-column: span 2;
+    margin: 5px 30px;
+}
+
+.login button{
+    background: #6B43FF;
+    font-family: var(--font-secondary);
+    font-size: 150%;
+    font-weight: bolder;
+    height: 40px;
+    width: 400px;
+}
 .seccion2{
-    height: 100%;
-    width: 50%;
+  
     background: linear-gradient(90deg, rgba(180, 146, 253, 0.3) 0%, rgba(173, 78, 245, 0.9543) 100%);
     display: flex;
-    align-items: flex-end;
-  
+    align-items: right;
+    width: 50%;
+    height: 100%;
 }
 
 
