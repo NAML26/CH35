@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation</title>
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+
+<h1 class="title" id="title1">DOM Manipulation</h1>
+<h2 class="title" id="title2">JavaScript 06</h2>
+<h3 class="title" id="title3">El DOM es una API para manipular el html</h3>
+<h3 class="title" id="title4">Usa nodos para acceder, modificar y crear</h3>
+
+<div id="dif">
+<a href="./pages/app.html"></a>
+<hr>
+
+
+<!-- Button hidden-->
+<button id="card-btn">Mostrar/ Ocultar elementos</button>
+
+<!--Card profile-->
+<div class="container" id="container-div">
+    <div class="main container">
+        <h2>Events</h2>
+        <!--Forms-->
+        <label for="name">Username</label>
+            <input type="text" name="name" id="name" placeholder="Escribe tu nombre de usuari">
+            <button id="btn-main">Actualizar perfil</button>
+    </div>
+    <div class="profile">
+        <h3 id="username"></h2>
+        <h4 id="age"></h3>
+        <p id="email"></p>
+        <ul id="favFilms"></ul>
+    </div>
+
+</button>
+
+</div>
+
+   <script src="./src/index.js"></script>
+   <script src="./src/button.js"></script>
+   <script src="./src/card.js"></script>
+</body>
+</html>
