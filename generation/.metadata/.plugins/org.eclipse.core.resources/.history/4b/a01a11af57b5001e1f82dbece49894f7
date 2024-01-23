@@ -1,0 +1,10 @@
+package Ejecicios_control;
+
+public class ContinueLoop {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

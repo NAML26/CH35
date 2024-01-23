@@ -1,0 +1,26 @@
+package Loops;
+
+public class Loops {
+
+	public static void main(String[] args) {
+
+/* FOR - Forma para iterar sobre valores. 
+ * 
+ * for(inicialización; codicion ; contador)
+ * 
+ * (incremento/decremento) {
+ * 
+ * Bloque de código
+ * 
+ * }
+ */
+		
+		//FOR con variable local
+		
+		for (int numero = 0; numero >= 10; numero++) {
+			System.out.println("Numero es igual a :"+numero);
+		}
+
+	}
+
+}

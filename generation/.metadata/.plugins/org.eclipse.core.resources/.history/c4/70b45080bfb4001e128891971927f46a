@@ -1,0 +1,23 @@
+package Loops;
+
+public class WhileLoop {
+
+	public static void main(String[] args) {
+		/*While: Ejecuta un bloque de codigo hasta que se cumple una condicion dada.
+		
+		wile (expresión) {
+			bloque de codigo
+			(contador-iterador)
+			}
+			*/
+		
+		int cuenta = 0;
+		while (cuenta <5) {
+			cuenta ++;
+			System.out.println("La cuenta es de: "+cuenta)
+			
+		}
+
+	}
+
+}

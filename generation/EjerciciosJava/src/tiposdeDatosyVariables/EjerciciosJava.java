@@ -1,0 +1,147 @@
+package tiposdeDatosyVariables;
+
+
+public class EjerciciosJava {
+
+	public static void main(String[] args) {
+		System.out.println("Hola mundo");
+		
+		 /*Comentarios 
+		  * multilínea*/
+		 //Comentario de una sola línea
+
+	//	Byte 1 byte –128 to 127 
+			byte edad; 
+			
+			edad = 15;
+			
+			//byte edades = 31;
+			
+			System.out.println("Edad del participante: "+edad);
+			
+
+	//Short 2 bytes –32,768 to 32,767 
+	
+			short usuariosNuevos = 200;
+	
+			System.out.println("Usuarios nuevos: "+usuariosNuevos);
+			
+	//INT 4 bytes –2,147,483,648 a 2,147,483,647 
+			
+			int usuariosTotales = 8752;
+			
+			System.out.println("Usuarios totales: "+usuariosTotales);
+			
+	//  Long 8 Bytes –9,223,372,036,854,775,808 a 9,223,372,036,854,775,807
+			
+			long pesoCambio= 29979245l;
+			
+			System.out.println("Usuaruis premium: "+pesoCambio); 
+	//Float 4 bytes 1.4e–045 to 3.4e+038
+			
+			float pi = 3.1415926535f;
+			
+			System.out.println("Pi ="+pi);
+	
+	//Double 8 bytes 4.9e–324 to 1.8e+308
+			
+			double peso= 2.8281828459045235360d;
+			
+			System.out.println("La variable es igual a: "+peso);
+			
+	//STRING En Java las strings son clases, por eso se declaran con mayusculas
+			
+			String nombreUsuario = "Pedro";
+			
+			System.out.println("Usuario: "+nombreUsuario);
+	//CHAR Para representar valores de un solo caracter
+			
+			char seccion = 'f';
+			
+			System.out.println("Seccion "+seccion);
+			
+	//Boolean Obtener true or false utilizando condicionales
+			
+			boolean clienteFrecuente = true;
+			
+			System.out.println("Un cliente frecuente: "+ clienteFrecuente);
+			
+	//CONVERSION DE TIPOS
+			
+			//Casteo a entero
+			int pesoDiferente = (int) peso;
+			
+			//casteo entero
+			
+			long pesoCambio1 = (long) peso;
+			
+			System.out.println("double "+peso);
+			System.out.println("int "+pesoDiferente);
+			
+			
+			//
+			
+			String costoBoleto = "500";//Es una clase para tener cadenas de texto
+			String zonaBoleto = "52";
+			System.out.println("Usuarix "+costoBoleto);
+			System.out.println("Zona a la que pertenece "+zonaBoleto);
+			
+			int cambioBoleto = Integer.parseInt(costoBoleto);
+			double zonaCambio = Double.parseDouble(zonaBoleto);
+			
+			System.out.println("Zona del usuario segun su boleto " + (cambioBoleto * zonaCambio));
+		
+			/*OPERADORES ARITMETICOS
+			
+			+ suma
+			- resta
+			* multiplicacion
+			/ division
+			 % Residuo
+			
+			
+			Operadores de compararcion 
+			 == compara si un opernado es igual a otro 
+			 != compara si es diferente 
+			 >  mayor que 
+			 <  menor que 
+			 >= mayor o igual que 
+			 <= menor o igual que */
+			
+			/*Ejercicio...
+			10 Salas
+			50 asientos / sala
+			Precio Boleto = $75.50
+			Precio Palomitas = $89.70
+			Bebidas = $35.50
+						 */
+			double precioEntrada = 75.5;
+			double prePalomitas = 89.7;
+			double precioBebida = 35.5;
+			int capacidadTotal = 500;
+			
+			int personasDentro = 342;
+			
+			if(personasDentro > capacidadTotal) {
+				System.out.println("Función agotada");
+			}
+				
+				double totalEntrada = personasDentro * precioEntrada;
+				double totalPalomitas = personasDentro * prePalomitas;
+				double totalBebidas= personasDentro * precioBebida;
+				
+				System.out.println("Total de personas " + personasDentro);
+				System.out.println("Total de entradas " +totalEntrada);
+				System.out.println("Total de palomitas "+totalPalomitas);
+				System.out.println("Total de bebidas "+totalBebidas);
+				
+				
+	
+			
+		
+			
+	}
+}
+
+
+

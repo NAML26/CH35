@@ -1,0 +1,34 @@
+package collections;
+
+import java.util.Arrays;
+
+public class ArrayListCollections {
+	public static void main(String[] args) {
+	/****** ARRAYS *******
+	 * Primero se define el :
+	 * 
+	 * Tipo de dato, no puede haber varios
+	 * Con [] se indica que es array
+	 * Nombre
+	 * =
+	 * {}*/
+		
+		String[] names = {"Pedro", "Rey", "Baruch","Eunice","Ania","Oswaldo","David","Braulio","Lucero","Elizabeth"};
+		
+		//Imprimir Arrays, No se puede impirmir directamente, se usa un metodo, que dice que lo convierte a Stings. Hace una importacion de java.util.Arrays
+		System.out.println(Arrays.toString(names));
+		
+		int[] edades = {12,3,25,45,62,14,32};
+		System.out.println(Arrays.toString(edades));
+		
+		//Acceder a cada elemento del Array. Entre [] se especifica el numero del dato que se quiere llamar. 
+		
+		String name1 = names[0];
+		System.out.println("EL primer nombre de la lista es: " +name1);
+		
+		int edad1 = edades[3];
+		System.out.println("La edad de " + name1 + " es de " + edad1);
+		
+	}
+}
+

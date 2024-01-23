@@ -1,0 +1,21 @@
+package collections;
+
+import java.util.Arrays;
+
+public class ArrayListCollections {
+	public static void main(String[] args) {
+	/****** ARRAYS *******
+	 * Primero se define el :
+	 * 
+	 * Tipo de dato, no puede haber varios
+	 * Con [] se indica que es array
+	 * Nombre
+	 * =
+	 * {}*/
+		
+		String[] names = {"Pedro", "Rey", "Baruch","Eunice","Ania","Oswaldo","David","Braulio","Lucero","Elizabeth"};
+		System.out.println(Arrays.toString(names));
+		
+	}
+}
+

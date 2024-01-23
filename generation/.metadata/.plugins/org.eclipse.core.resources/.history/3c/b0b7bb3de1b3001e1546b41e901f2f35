@@ -1,0 +1,28 @@
+package operadoresLogicos;
+
+public class OperadoresLogicos {
+	public static void main(String[] args) {
+		
+		/*&& AND devielve true si ambas expresiones son verdaderas
+		 * || OR devuelve true si al menos una de las condiciones se cumple
+		 * ! NOT si la expresion booleana es falsa devuelve true y viceversa
+		 */
+		
+		//&& AND
+		
+		int anios = 5;
+		
+		boolean esInfante = true;
+		boolean costoInfante = anios <= 12 && esInfante;
+		System.out.println("Precio de niño: " + costoInfante);
+		
+		//|| OR
+		
+		String cliente = "cliente123";
+		String credenciales = "takisfuego123";
+		
+		boolean credencialCorrecta = cliente.equals("cliente123") && credenciales.equals("takisfuego123");
+		
+		System.out.println("Inicio de sesión: "+credencialCorrecta);
+	}
+}

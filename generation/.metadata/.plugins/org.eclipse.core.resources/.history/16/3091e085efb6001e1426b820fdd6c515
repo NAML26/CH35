@@ -1,0 +1,81 @@
+package collections;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class ArrayListCollections {
+	public static void main(String[] args) {
+	/****** ARRAYS *******
+	 * Primero se define el :
+	 * 
+	 * Tipo de dato, no puede haber varios
+	 * Con [] se indica que es array
+	 * Nombre
+	 * =
+	 * {}*/
+		
+		String[] names = {"Pedro", "Rey", "Baruch","Eunice","Ania","Oswaldo","David"};
+		
+		//Imprimir Arrays, No se puede impirmir directamente, se usa un metodo, que dice que lo convierte a Stings. Hace una importacion de java.util.Arrays
+		System.out.println(Arrays.toString(names));
+		
+		int[] edades = {12,3,25,45,62,14,32};
+		System.out.println(Arrays.toString(edades));
+		
+		//Acceder a cada elemento del Array. Entre [] se especifica el numero del dato que se quiere llamar. 
+		
+		String name1 = names[0];
+		System.out.println("EL primer nombre de la lista es: " +name1);
+		
+		int edad1 = edades[3];
+		System.out.println("La edad de " + name1 + " es de " + edad1);
+		
+		//Obtener la longitud del Array
+		
+		int longitudNames = names.length;
+		System.out.println("El Array names tiene " + longitudNames + " elementos");
+		
+		//Obtener el último elemento
+		
+		// String ultimoElemento = names[longitudNames - 1]; //La longitud ya vive en la variable "longitudNames"
+		
+		String ultimoElemento = names[longitudNames - 1];//La longitud No vive en una variable
+		System.out.println("El ultimo elemento del Array names es " + ultimoElemento); //David
+		
+		//Mostrar cada elemento utilizando forEach
+		
+		for (String name : names) {
+			System.out.println(name);
+		}
+		//***************ArrayList *******************//
+		//ArrayList es un array que puede cambiar de tamaño. Es la clase de Java que representa la estructura de datos de Arrays. Permite elementos duplicados, y recibe varios métodos para su manipulación. 
+		
+		ArrayList<String> films = new ArrayList <String>();
+		ArrayList<Integer> matricula = new ArrayList <>(); //INTEGER es una Wrapper class -- Los ArrayList NO trabajan con datos primitivos, sino con los superiores
+		ArrayList<Character> characters = new ArrayList<>();
+		
+		//Agregar elementos 
+		films.add("Inception");
+		films.add("Se7en");
+		films.add("The shining");
+		films.add("Pulp fiction");
+		films.add("Mr Nobody");
+		films.add("The shutter island");
+		films.add("Ready Player One");
+		
+		System.out.println(films);
+		
+		//Obtener un elemento: name.get(index);
+		
+		
+		String film1 = films.get(0);
+		System.out.println("La primera pelicula es " + film1);
+		
+		//Modificar un elemento: name.set(index, newValue)
+		
+		String film3 = films.set(3, "Memento");
+		System.out.println(film3);
+		
+	}
+}
+
